@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.SectionOne{
+    background-image: url('images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+.SectionOne .NavBar{
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    padding: 20px 70px;
+}
+.SectionOne .NavBar img{
+float: left;
+width: 175px;
+}
+.SectionOne .NavBar ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.SectionOne .NavBar .NavBarItems{
+    float: right;
+}
+.SectionOne .NavBar .NavBarItems li{
+    float: left;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.SectionOne .NavBar .NavBarItems ul li a{
+    color:#EEEEEE;
+    text-decoration: none;
+}
+.SectionOne .SectionOneData{
+width: 40%;
+color:#EEEEEE;
+margin: auto;
+padding-top: 200px;
+}
+.SectionOne .SectionOneData h1{
+    color: white;
+font-size: 65px;
+margin: 15px 0;
+}
+.SectionOne .SectionOneData p{
+font-size: 20px;
+margin-bottom: 10px;
+}
+.SectionOne .SectionOneData button{
+border: 2px white solid;
+background-color: transparent;
+font-family: 'Libre Baskerville', serif;
+padding: 15px 20px;
+border-radius: 7%;
+margin-left: 15px;
+font-weight: 900;
+color: white;
+}
+.SectionOne .SectionOneData .LearnMore{
+background-color: #8e7754;
+border: 0;
+}
+/* This is a comment to tell you that the Section above ended with it's styles */
+.SectionTwo{
+    overflow: auto;
+    background-color: white;
+    width: 100%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    color: #686868;
+}
+.SectionTwo .LeftPicture{
+    width: 50%;
+    float: left;
+padding: 30px 40px;
+box-sizing: border-box;
+}
+.SectionTwo .LeftPicture img{
+    width: 100%;
+    text-align: center;
+}
+.SectionTwo .RightData{
+    float: left;
+    width: 50%;
+    padding: 60px 40px;
+    font-size: 17px;
+font-weight: 500;
+    box-sizing: border-box;
+}
+.SectionTwo .RightData h1{
+    color: black;
+}
+.SectionTwo .RightData p{
+    margin: 20px 0;
+}
+.SectionTwo .RightData li{
+list-style: none;
+margin: 50px 0;
+}
+.SectionTwo .RightData li img{
+float: left;
+width: 30px;
+height: 30px;
+margin-right: 15px;
+border: 0.9px solid #686868;
+border-radius: 50%;
+}
+.clr{
+    clear: both;
+}
+/* This is a comment to tell you that the Section above ended with it's styles */
+.ThirdSection{
+    width: 100%;
+    padding: 30px 40px;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+    color: #696969;
+overflow: auto;
+}
+.ThirdSection .LeftData{
+float: left;
+width: 50%;
+padding: 40px 30px;
+box-sizing: border-box;
+}
+.ThirdSection .LeftData h1{
+    margin: 30px 0;
+    color: black;
+}
+.ThirdSection .LeftData p{
+font-size: 17px;
+font-weight: 500;
+}
+.ThirdSection .RightPhoto{
+    float: left;
+    width: 50%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+.ThirdSection .RightPhoto img{
+    width: 100%;
+}
+/* This is a comment to tell you that the Section above ended with it's styles */
+.ForthSection{
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+.ForthSection .Header{
+text-align: center;
+margin: 30px 0;
+}
+.ForthSection .Header p{
+    color: #696969;
+    margin-top: 15px;
+}
+.ForthSection .o{
+font-size: 70px;
+color: #696969;
+}
+.ForthSection .ThreeParts{
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.ForthSection .ThreeParts .Products{
+width: 33.3%;
+float: left;
+box-sizing: border-box;
+padding: 20px 30px;
+color: #696969;
+text-align: center;
+}
+.ForthSection .ThreeParts .Products p{
+padding: 0 20px;
+}
+.ForthSection .ThreeParts .Products img{
+width: 100%;
+}
+.ForthSection .ThreeParts .Products h3{
+margin: 30px 0;
+color: black;
+}
+/* This is a comment to tell you that the Section above ended with it's styles */
+.FithSection{
+    background-color: #F8F8F8;
+    width: 100%;
+    padding: 90px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.FithSection .LeftData{
+width: 50%;
+float: left;
+color: #696969;
+padding-right: 50px;
+box-sizing: border-box;
+}
+.FithSection .LeftData h1{
+color: black;
+margin-bottom: 20px;
+}
+.FithSection .LeftData .ContactDetails ul{
+list-style: none;
+}
+.FithSection .LeftData .ContactDetails ul li{
+margin-top: 40px;
+}
+.FithSection .LeftData .ContactDetails ul img{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+border: 0 solid;
+float: left;
+margin-right: 15px;
+}
+.FithSection .RightData{
+width: 50%;
+float: left;
+box-sizing: border-box;
+}
+.FithSection .RightData .MAP{
+width: 100%;
+height: 500px;
+}
+/* This is a comment to tell you that the Section above ended with it's styles */
+.SixSection{
+background-color: #403D38;
+padding: 50px;
+box-sizing: border-box;
+overflow: auto;
+}
+.SixSection .FourPartsData .WorldBackground{
+    background-image: url('images/contact-details-map.png') ;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.5;
+}
+.SixSection .FourPartsData{
+    width: 25%;
+    float: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+    color: #969696;
+}
+.SixSection .FourPartsData h3{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.Character{
+    font-weight: 900;
+    font-size: 80%;
+    margin-right: 5px;
+}
+.SixSection .FourPartsData hr{
+    border: 0.4px solid #969696;
+    margin: 15px 0;
+}
+.SixSection .FourPartsData img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    opacity: 1;
+}
+.SixSection .FourPartsData ul{
+list-style: none;
+}
+.SixSection .FourPartsData a{
+text-decoration: none;
+color: #969696;
+}
+/* This is a comment to tell you that the Section above ended with it's styles */
+.SevenSection{
+    width: 100%;
+    overflow: auto;
+    background-color: #353330;
+}
+.SevenSection .CenterizedData{
+text-align: center;
+margin: 50px 0;
+overflow: auto;
+}
+.SevenSection .CenterizedData h5{
+color: #969696;
+margin: 30px 0;
+}
+.SevenSection .CenterizedData ul{
+list-style: none;
+margin: auto;
+overflow: auto;
+}
+.SevenSection .CenterizedData ul li{
+display: inline;
+margin-right: 10px ;
+}
+.SevenSection .CenterizedData ul img{
+width: 35px;
+height: 35px;
+border-radius: 50%;
+}
+
+
+
+
